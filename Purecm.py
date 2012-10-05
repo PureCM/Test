@@ -1,4 +1,5 @@
 test 1
+test 2
 
 import sublime
 import sublime_plugin
