@@ -20,6 +20,8 @@ def ConstructCommand(in_command):
 	command += in_command
 	return command
 
+test 3
+
 def IsWorkspaceMonitorRunning():
 	return subprocess.call('pcm info -w', stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True) == 0
 
