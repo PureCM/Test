@@ -1,0 +1,8 @@
+{
+	"purecm_auto_checkout": true, // when true, checkout will occur depending on the modify/save settings
+	"purecm_auto_checkout_on_save": true,
+	"purecm_auto_checkout_on_modified": true,
+	"purecm_auto_add": true, // when true, any file within the client spec that doesn't exist during the presave will be added
+	"purecm_warnings_enabled": true, // will output messages when warnings happen
+	"purecm_log_warnings_to_status": false // used to redirect logs to the status bar instead. The standard output is too big for the line (can be multi-line with the raw output of p4)
+}

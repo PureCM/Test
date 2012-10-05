@@ -1,0 +1,52 @@
+[
+    {
+        "caption": "PureCM",
+        "mnemonic": "r",
+        "id": "purecm",
+        "children":
+        [
+            {
+                "command": "purecm_update",
+                "caption": "Update"
+            },
+            {
+                "command": "purecm_submit",
+                "caption": "Submit"
+            },
+            {
+                "command": "purecm_consistency",
+                "caption": "Check Consistency"
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "command": "purecm_add",
+                "caption": "Add"
+            },
+            {
+                "command": "purecm_checkout",
+                "caption": "Checkout"
+            },
+            {
+                "command": "purecm_delete",
+                "caption": "Delete" 
+            },
+            {
+                "command": "purecm_revert",
+                "caption": "Revert"
+            },
+            {
+                "caption": "-"
+            },
+            {
+                "command": "purecm_diff",
+                "caption": "Diff"
+            },
+            {
+                "command": "purecm_history",
+                "caption": "History"
+            }
+        ]
+    }
+]
